@@ -22,6 +22,6 @@ public class UserController {
     @GetMapping("/user")
     public User getUser(@RequestParam Integer id) {
         Optional<User> user = userService.getUser(id);
-        return user.orElse(null); // Simplify the return statement using orElse
+        return user.orElse(null);
     }
 }

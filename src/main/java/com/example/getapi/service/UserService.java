@@ -16,12 +16,12 @@ public class UserService {
     public UserService() {
         userList = new ArrayList<>();
 
-        User user1 = new User(1, "Al-Amin", 24, "alaminsakib.cse@gmail.com");
-        User user2 = new User(2, "Sakib", 24, "alaminsakib.cse@gmail.com");
-        User user3 = new User(3, "Akash", 24, "alaminsakib.cse@gmail.com");
-        User user4 = new User(4, "Arifa", 24, "alaminsakib.cse@gmail.com");
-        User user5 = new User(5, "Tani", 24, "alaminsakib.cse@gmail.com");
-        User user6 = new User(6, "Tasrin", 24, "alaminsakib.cse@gmail.com");
+        User user1 = new User(1, "Al-Amin", 24, "alamin.cse@gmail.com");
+        User user2 = new User(2, "Sakib", 24, "alamin.cse@gmail.com");
+        User user3 = new User(3, "Akash", 24, "alamin.cse@gmail.com");
+        User user4 = new User(4, "Arifa", 24, "alamin.cse@gmail.com");
+        User user5 = new User(5, "Tani", 24, "alamin.cse@gmail.com");
+        User user6 = new User(6, "Tasrin", 24, "alamin.cse@gmail.com");
 
         userList.addAll(Arrays.asList(user1,user2,user3,user4,user5,user6));
     }
